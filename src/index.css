@@ -1,0 +1,88 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+code {
+ font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* width */
+body::-webkit-scrollbar {
+ width: 7px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+ background: var(--BodyColor);
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+ background: var(--SmoothGray);
+ border-radius: 20px;
+}
+
+/* Colors */
+:root {
+ --linkColor: #1c72f1;
+ --SubscribeButtonColor: #cc0000;
+ --LiveButton: #ff4e45;
+ --ViewReplayButton: #2187ff;
+ --MainColor: #fff;
+ --DarkBlack: #000;
+ --NavbarColor: #202020;
+ --ScrollNavbarColor: #222222;
+ --NavbarButtonBgColor: #181818;
+ --RelatedButtonColor: #383838;
+ --VideoSubTitleColor: #9a9a9a;
+ --BodyColor: #181818;
+ --LightColor: #e1e1e1;
+ --LightColorTwo: #a0a0a0;
+ --SmoothGray: #8b8b8b;
+ --SmoothGrayTwo: #4d4d4d;
+ --HoverColor: #383838;
+ --LikeVideosBg: #0f0f0f;
+ --LikeColor: rgb(30, 248, 219);
+ --UnLikeColor: rgb(255, 0, 0);
+}
+
+[data-theme='dark'] {
+ --linkColor: #1cdff1;
+ --SubscribeButtonColor: #cc0000;
+ --LiveButton: #ff4e45;
+ --ViewReplayButton: #2187ff;
+ --MainColor: rgb(0, 0, 0);
+ --DarkBlack: rgb(255, 255, 255);
+ --NavbarColor: #ffffff;
+ --ScrollNavbarColor: #ffffff;
+ --NavbarButtonBgColor: #e6e6e6;
+ --RelatedButtonColor: #b1b1b1;
+ --VideoSubTitleColor: #525252;
+ --BodyColor: #f9f9f9;
+ --LightColor: #313131;
+ --LightColorTwo: #555555;
+ --SmoothGray: #4d4d4d;
+ --SmoothGrayTwo: #afafaf;
+ --HoverColor: #9c9c9c;
+ --LikeVideosBg: #e1e1e1;
+ --LikeColor: rgb(30, 248, 219);
+ --UnLikeColor: rgb(255, 0, 0);
+}
+
+/* Gloabal Classes */
+
+.Container {
+ max-width: 1800px;
+ margin: auto;
+}
+
+a {
+ text-decoration: none;
+}

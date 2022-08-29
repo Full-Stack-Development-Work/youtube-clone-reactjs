@@ -1,0 +1,52 @@
+.HomePage {
+ width: 100%;
+ height: auto;
+ background-color: var(--BodyColor);
+}
+
+.Videos__Card_Div {
+ width: 100%;
+ height: auto;
+ padding: 1rem 5rem;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+}
+
+.Video__Card__Component {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+}
+
+.Snipper__Div {
+ width: auto;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+
+.Snipper__Div img {
+ width: 30px;
+}
+
+/* media */
+@media (max-width: 800px) {
+ .Video__Card__Component {
+  grid-template-columns: repeat(3, 1fr);
+ }
+}
+
+@media (max-width: 600px) {
+ .Video__Card__Component {
+  grid-template-columns: repeat(2, 1fr);
+ }
+}
+
+@media (max-width: 400px) {
+ .Video__Card__Component {
+  grid-template-columns: repeat(1, 1fr);
+ }
+}

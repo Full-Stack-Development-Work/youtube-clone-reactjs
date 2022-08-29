@@ -1,0 +1,46 @@
+.SiderBar__Inner__Div {
+ display: flex;
+ align-items: center;
+ padding: 0.7rem 2rem;
+ transition: all 0.3s ease;
+}
+
+.Sm__ActiveBar {
+ padding: 0.7rem;
+ padding-left: 2rem;
+}
+
+.Icon__Inner_Div {
+ display: flex;
+ align-items: center;
+ width: 100%;
+}
+
+.SiderBar__Inner__Div i {
+ margin-right: 1.5rem;
+ color: var(--SmoothGray);
+}
+
+.SiderBar__Inner__Div p {
+ font-size: 0.9rem;
+ font-weight: 500;
+ color: var(--LightColor);
+ width: max-content;
+}
+
+.SiderBar__Inner__Div:hover {
+ background-color: var(--HoverColor);
+ cursor: pointer;
+}
+
+.ActiveDiv {
+ background-color: var(--SmoothGrayTwo);
+}
+
+.ActiveDiv i {
+ color: var(--MainColor) !important;
+}
+
+.Hide_SideBar_Icon {
+ display: none;
+}

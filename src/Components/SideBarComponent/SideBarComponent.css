@@ -1,0 +1,17 @@
+.SideBar_Div {
+ width: auto;
+ background-color: var(--NavbarColor);
+ height: 100vh;
+ position: sticky;
+ top: 0;
+}
+
+.SideBar_Div .Subcribtion__Heading {
+ color: var(--LightColor);
+ font-size: 0.9rem;
+ text-align: left;
+ font-weight: 500;
+ padding: 0 2rem;
+ margin: 0.5rem 0;
+ width: max-content;
+}
